@@ -1,8 +1,12 @@
+import React from 'react'
 
-function App() {
+const App = () => {
   return (
-    <h1>Hello, TypeScript!</h1>
-  );
+    <div className="container">
+      <h1>Hello typescript</h1>
+      <button className="button">Click me</button>
+    </div>
+  )
 }
 
 export default App;
